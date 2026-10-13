@@ -4,7 +4,7 @@ A simulated command-line terminal that runs entirely in your browser. No server,
 
 It has a virtual in-memory file system, command history, tab completion and a light/dark theme. Nothing runs on your real computer, and files are lost when the page is refreshed.
 
-**[Live demo](https://YOUR-USERNAME.github.io/web-terminal/)**, hosted on GitHub Pages.
+**[Live demo](https://amiralidlb93-hash.github.io/web-terminal/)**, hosted on GitHub Pages.
 
 ## Quick start
 
