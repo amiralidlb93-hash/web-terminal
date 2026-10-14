@@ -26,40 +26,40 @@ Try it online with the live demo above, or run it locally:
 
 ## Commands
 
-| Command | Description |
-| --- | --- |
-| `help` | Show all commands |
-| `ls [-a] [path]` | List files |
-| `cd [path]` | Change directory |
-| `pwd` | Print working directory |
-| `cat file` | Show file contents |
-| `mkdir name` | Create a directory |
-| `touch name` | Create an empty file |
-| `rm [-r] name` | Remove a file or directory |
-| `cp src dest` | Copy a file or directory |
-| `mv src dest` | Move or rename |
-| `echo text [> file]` | Print text or write to a file (`>>` appends) |
-| `head` / `tail [-n N] file` | First or last lines of a file |
-| `wc file` | Count lines, words and characters |
-| `grep pattern file` | Find matching lines |
-| `tree [path]` | Show directory tree |
-| `calc expr` | Calculator, e.g. `calc 2*(3+4)` |
-| `js expression` | Run JavaScript, e.g. `js [1,2,3].map(x=>x*2)` |
-| `date` | Current date and time |
-| `whoami`, `hostname`, `uname` | User and system info |
-| `neofetch` | System summary |
-| `history` | Previous commands |
-| `theme [dark\|light]` | Switch theme |
-| `clear` | Clear the screen |
+| Command                       | Description                                   |
+| ----------------------------- | --------------------------------------------- |
+| `help`                        | Show all commands                             |
+| `ls [-a] [path]`              | List files                                    |
+| `cd [path]`                   | Change directory                              |
+| `pwd`                         | Print working directory                       |
+| `cat file`                    | Show file contents                            |
+| `mkdir name`                  | Create a directory                            |
+| `touch name`                  | Create an empty file                          |
+| `rm [-r] name`                | Remove a file or directory                    |
+| `cp src dest`                 | Copy a file or directory                      |
+| `mv src dest`                 | Move or rename                                |
+| `echo text [> file]`          | Print text or write to a file (`>>` appends)  |
+| `head` / `tail [-n N] file`   | First or last lines of a file                 |
+| `wc file`                     | Count lines, words and characters             |
+| `grep pattern file`           | Find matching lines                           |
+| `tree [path]`                 | Show directory tree                           |
+| `calc expr`                   | Calculator, e.g. `calc 2*(3+4)`               |
+| `js expression`               | Run JavaScript, e.g. `js [1,2,3].map(x=>x*2)` |
+| `date`                        | Current date and time                         |
+| `whoami`, `hostname`, `uname` | User and system info                          |
+| `neofetch`                    | System summary                                |
+| `history`                     | Previous commands                             |
+| `theme [dark\|light]`         | Switch theme                                  |
+| `clear`                       | Clear the screen                              |
 
 ## Keyboard shortcuts
 
-| Key | Action |
-| --- | --- |
-| `Tab` | Autocomplete |
-| `Up` / `Down` | Browse history |
-| `Ctrl+L` | Clear the screen |
-| `Ctrl+C` | Cancel the current line |
+| Key           | Action                  |
+| ------------- | ----------------------- |
+| `Tab`         | Autocomplete            |
+| `Up` / `Down` | Browse history          |
+| `Ctrl+L`      | Clear the screen        |
+| `Ctrl+C`      | Cancel the current line |
 
 ## Project structure
 
@@ -91,3 +91,7 @@ Search for `user@terminal` in `index.html` and `script.js` to change the user an
 
 - The `js` and `calc` commands evaluate expressions in the page, so only run code you trust.
 - The monospace font (IBM Plex Mono) is loaded from Google Fonts, with system fonts as a fallback.
+
+## License
+
+Released under the [MIT License](LICENSE).
